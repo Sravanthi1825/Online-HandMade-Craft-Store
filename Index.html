@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LNS Craft Store</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <header>
+        <h1>LNS Craft Store</h1>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Our Handmade Craft Store</h2>
+        <p>Discover unique, handcrafted items made with love.
+
+        </p>
+    </section>
+
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            We would love to create our memories into your memories and expand our love in the form of our 
+            crafts in your world.
+            We are passionate about handmade crafts and love sharing them with the world.
+        </p>
+    </section>
+
+    <section id="products">
+        <h2>Available Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="CanvasPainting.jpg" alt="CanvasPainting">
+                <h3>Canvas Painting</h3>
+                <p>$25</p>
+                <button onclick="addToCart('Handmade Pottery', 25)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="clay.jpg" alt="Clay Craft">
+                <h3>Clay crafts</h3>
+                <p>$40</p>
+                <button onclick="addToCart('Wooden Carving', 40)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        
+        <div class="product-list">
+            <div class="product">
+                <img src="PotteryImage.avif" alt="Handmade Pottery">
+                <h3>Handmade Pottery</h3>
+                <p>Price: $30</p>
+                <button onclick="addToCart('Handmade Pottery', 30, 'images/pottery.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="WoodenCarvings.jpg" alt="Wooden Carving">
+                <h3>Wooden Carving</h3>
+                <p>Price: $40</p>
+                <button onclick="addToCart('Wooden Carving', 40, 'images/wood_carving.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="Bracelet.jpg" alt="Beaded Necklace">
+                <h3>Beaded Bracelet</h3>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Beaded Necklace', 20, 'images/necklace.jpg')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p><strong>Total: $<span id="cart-total">0.00</span></strong></p>
+        <button id="checkout-btn" onclick="checkout()">Checkout</button>
+    </section>
+
+    
+    <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="message">Suggestions:</label>
+        <textarea id="message" placeholder="Enter your message..." required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+    <p id="form-response"></p>
+</section>
+
+
+    <footer>
+        <p>@LNS Craft Store</p>
+    </footer>
+    <script src="script.js" defer></script>
+
+</body>
+</html>
+
