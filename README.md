@@ -23,7 +23,7 @@ The Handmade Craft Store is a user-friendly e-commerce website where users can b
 
 1️⃣ Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/handmade-craft-store.git
+git clone https://github.com/Sravanthi1825/handmade-craft-store.git
 
 2️⃣ Open index.html in a browser.
 
