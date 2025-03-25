@@ -34,6 +34,6 @@ git clone https://github.com/Sravanthi1825/handmade-craft-store.git
 📞 Contact 
 
 📧 Email: sravanthich1825@gmail.com
-🌐 GitHub: [YOUR GITHUB LINK]
+🌐 GitHub: 🔗 https://github.com/YOUR_USERNAME
 
 ⭐ Give a star on GitHub if you like this project! ⭐
